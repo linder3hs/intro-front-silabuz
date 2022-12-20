@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Registro de usuarios</h1>
+    <form action="">
+      <p>
+        <input name="full_name" type="text" placeholder="Nombre completo" />
+      </p>
+      <p>
+        <input name="last_name" type="text" placeholder="Apellidos" />
+      </p>
+      <p>
+        <input name="sex" checked type="radio" /> Hombre <br />
+        <input name="sex" type="radio" /> Mujer
+      </p>
+      <p>
+        <input name="email" type="email" placeholder="Ingrese un correo" />
+      </p>
+      <p>
+        <input name="ofertas" checked type="checkbox" /> Deseo recibir
+        información sobre novedades y ofertas
+      </p>
+      <p>
+        <input name="politicas" checked type="checkbox" /> Declaro haber leido y
+        aceptar las condiciones generales del programa y la normativa sobre
+        protección de datos
+      </p>
+      <p>
+        <select name="ciudades">
+          <option value="Lima">Lima</option>
+          <option value="Arequipa">Arquipa</option>
+          <option value="Cuzco">Cuzco</option>
+          <option value="Loreto">Loreto</option>
+        </select>
+      </p>
+      <p>
+        <textarea
+          name="descripcion"
+          cols="50"
+          rows="10"
+          placeholder="Descripcion"
+        >
+        </textarea>
+      </p>
+      <p>
+        <button type="submit">Enviar datos</button>
+      </p>
+    </form>
+  </body>
+</html>
