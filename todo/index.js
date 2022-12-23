@@ -23,10 +23,10 @@ function renderTask(task) {
         <p>${task.created_at}</p>
         <p>${task.status}</p>
         <div class="d-grid">
-          <button class="btn btn-outline-primary">
+          <a href="./detail.html?id=${task.id}" class="btn btn-outline-primary">
             Ver detalle
-          </button>
-        </div>
+          </a>
+        </div> 
       </div>
     </div>
   `;
